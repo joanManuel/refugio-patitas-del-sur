@@ -47,6 +47,7 @@ header{
        img{
            margin-top: 5px;
             width: 100px;
+           z-index: 29;
            &:hover{
              animation: escala 1s infinite;
         } 

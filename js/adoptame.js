@@ -5,7 +5,7 @@
         return app.init();
     });
     app = {
-        text: 'Adóptame! :D',
+        text: 'Adopta, no compres!',
         index: 0,
         chars: 0,
         speed: 300,

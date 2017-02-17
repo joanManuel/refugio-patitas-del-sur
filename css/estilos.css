@@ -33,7 +33,8 @@ header .navbar-brand {
   margin: 0 80px; }
   header .navbar-brand img {
     margin-top: 5px;
-    width: 100px; }
+    width: 100px;
+    z-index: 29; }
     header .navbar-brand img:hover {
       animation: escala 1s infinite; }
 
@@ -206,6 +207,12 @@ footer {
   .carousel .carousel-control {
     z-index: 11; }
 
+@media screen and (max-width: 1270px) {
+  .wrapper {
+    left: 19%; } }
+@media screen and (max-width: 1215px) {
+  .wrapper {
+    display: none; } }
 body {
   padding-top: 15px; }
 
