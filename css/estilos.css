@@ -1,0 +1,214 @@
+header nav {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  background: white; }
+  header nav ul {
+    text-align: right;
+    position: relative;
+    right: 160px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; }
+  header nav li {
+    display: inline-block; }
+    header nav li a {
+      z-index: 30;
+      position: relative;
+      display: inline-block;
+      padding: 15px 35px;
+      text-decoration: none;
+      font-size: 14px;
+      color: #041A27; }
+      header nav li a:link {
+        text-decoration: none; }
+      header nav li a:hover {
+        text-decoration: none;
+        background: #1A9CDC;
+        color: white;
+        -webkit-transition-duration: .3s; }
+header .navbar-brand {
+  position: absolute;
+  width: auto;
+  padding: 0 10px;
+  margin: 0 80px; }
+  header .navbar-brand img {
+    margin-top: 5px;
+    width: 100px; }
+    header .navbar-brand img:hover {
+      animation: escala 1s infinite; }
+
+@keyframes escala {
+  50% {
+    transform: scale(1.1); } }
+.ads {
+  margin-top: 15px; }
+  .ads img {
+    width: 728px;
+    height: 90px; }
+  .ads .anun {
+    display: block;
+    margin: 0 auto; }
+
+.noticias .titulo-seccion {
+  margin-top: 20px; }
+  .noticias .titulo-seccion p {
+    color: #04486F;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 8px; }
+  .noticias .titulo-seccion .line {
+    background-color: #04486F;
+    position: relative;
+    padding: 1.5px 0;
+    width: 180px;
+    display: inline-block;
+    top: -20px; }
+.noticias .posts .post {
+  margin-bottom: 1.875em; }
+  .noticias .posts .post .contenedor {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+    .noticias .posts .post .contenedor .thumb {
+      width: 100%;
+      vertical-align: top;
+      height: auto; }
+    .noticias .posts .post .contenedor .info {
+      padding: 1.25em; }
+      .noticias .posts .post .contenedor .info .titulo a {
+        color: black; }
+      .noticias .posts .post .contenedor .info .fecha {
+        color: #04486F;
+        font-family: "Oswald";
+        font-size: 16px; }
+.noticias .paginacion .cent ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1.25em;
+  font-size: 1em;
+  display: flex;
+  justify-content: center; }
+  .noticias .paginacion .cent ul li {
+    background: grey;
+    color: #fff;
+    margin-right: 0.62em;
+    font-size: 1.125em;
+    line-height: 1.125em; }
+    .noticias .paginacion .cent ul li a {
+      background: white;
+      color: black;
+      line-height: 1.125em;
+      display: inline-block;
+      padding: 7px 12px; }
+      .noticias .paginacion .cent ul li a:hover {
+        background: #1A9CDC;
+        color: white;
+        text-decoration: none; }
+
+.sidebar .widget {
+  margin-bottom: 5px; }
+  .sidebar .widget .titulo-seccion h3 {
+    margin-top: 24px;
+    text-align: center;
+    color: #04486F;
+    font-size: 20px;
+    font-family: "Oswald","Arial"; }
+  .sidebar .widget.redes-sociales {
+    overflow: hidden; }
+  .sidebar .widget .redes-sociales a {
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 0 20px;
+    width: 90px;
+    border: solid 1px white; }
+    .sidebar .widget .redes-sociales a:hover {
+      border: solid 1px #1A9CDC; }
+  .sidebar .widget .redes-sociales .arriba {
+    display: flex;
+    justify-content: center; }
+    .sidebar .widget .redes-sociales .arriba .facebook {
+      color: #3b5998; }
+    .sidebar .widget .redes-sociales .arriba .instagram {
+      color: #3f729b; }
+  .sidebar .widget .redes-sociales .abajo {
+    display: flex;
+    justify-content: center; }
+    .sidebar .widget .redes-sociales .abajo .twitter {
+      color: #1da1f2; }
+    .sidebar .widget .redes-sociales .abajo .youtube {
+      color: #cd201f; }
+.sidebar .ads-aside {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+
+footer {
+  background-color: #041A27;
+  height: 80px; }
+  footer .copyright {
+    position: relative;
+    float: left;
+    margin: -10px 0 0 50px;
+    top: 50%; }
+    footer .copyright p {
+      color: white;
+      font-family: "Oswald", arial;
+      font-size: 18px; }
+  footer .design {
+    float: right;
+    position: relative;
+    margin: -10px 50px 0 0;
+    top: 50%; }
+    footer .design p {
+      color: white;
+      font-family: "Oswald", arial;
+      font-size: 18px; }
+
+.carousel {
+  top: -70px;
+  width: 1000px;
+  margin: 0 auto; }
+  .carousel .carousel-inner .item {
+    background: #a7cfdf;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a7cfdf 0%, #23538a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
+    /* IE6-9 */
+    text-align: center;
+    height: 420px;
+    /*change as your needs*/
+    width: 100%;
+    margin: 0 auto; }
+  .carousel img {
+    margin: 0 auto;
+    width: 600px;
+    height: 800px; }
+  .carousel .control-buttons {
+    text-align: center; }
+  .carousel .transition-timer-carousel-progress-bar {
+    height: 3px;
+    background-color: #5cb85c;
+    /*progress bar color*/
+    width: 0;
+    margin: 0 0 0 0;
+    border: none;
+    z-index: 11;
+    position: relative; }
+  .carousel .carousel-control {
+    z-index: 11; }
+
+body {
+  padding-top: 15px; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+/*# sourceMappingURL=estilos.css.map */

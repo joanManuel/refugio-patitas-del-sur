@@ -1,0 +1,17 @@
+$hoverMenu : #1A9CDC;
+$textMenuFooter : #041A27;
+$noti : #04486F;
+
+@import "header";
+@import "ads";
+@import "noticias";
+@import "sidebar";
+@import "footer";
+@import "slider";
+body{
+    padding-top: 15px;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}

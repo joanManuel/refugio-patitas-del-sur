@@ -1,0 +1,28 @@
+footer{
+    background-color: $textMenuFooter;
+    height: 80px;
+    .copyright{
+        position: relative;
+        float: left;
+        margin: -10px 0 0 50px;
+        top: 50%;
+        
+        p{
+            color: white;
+            font-family: "Oswald", arial;
+            font-size: 18px;
+        }
+    }
+    .design{
+        float: right;
+        position: relative;
+        margin: -10px 50px 0 0;
+        top: 50%;
+        
+        p{
+            color: white;
+            font-family: "Oswald", arial;
+            font-size: 18px;
+        }
+    }
+}

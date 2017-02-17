@@ -1,0 +1,53 @@
+.wrapper {
+    
+    width: 100%;
+    max-width: 900px;
+   position: absolute;
+    top: 0;
+    right: 180px;
+    overflow: hidden;
+  
+}
+
+.prints{
+ height: 44px;
+}
+
+.contain-animation {
+  height: 60px;
+    background: none;
+    width: 100%;
+}
+contain-dog {
+  position: relative;
+  margin: -50px auto;
+  width: 870px;
+  height: 200px;
+}
+
+
+.cover {
+  position: absolute;
+    top: -2px;
+  left: 15px;
+  background: #fff;
+  height: 46px;
+  width: 320px;
+  animation: walk 6s steps(6, end) infinite;
+   z-index: 20;
+  -webkit-animation: walk 6s steps(6, end) infinite;
+}
+
+ @keyframes walk {
+  to {
+    transform: translateX(320px);
+     
+  }
+}
+
+@-webkit-keyframes walk {
+  to {
+    -webkit-transform: translateX(320px);
+       
+  }
+} 
