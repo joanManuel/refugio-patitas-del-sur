@@ -173,44 +173,6 @@ footer {
       font-family: "Oswald", arial;
       font-size: 18px; }
 
-.carousel {
-  top: -70px;
-  width: 1000px;
-  margin: 0 auto; }
-  .carousel .carousel-inner .item {
-    background: #a7cfdf;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #a7cfdf 0%, #23538a 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
-    /* IE6-9 */
-    text-align: center;
-    height: 420px;
-    /*change as your needs*/
-    width: 100%;
-    margin: 0 auto; }
-  .carousel img {
-    margin: 0 auto;
-    width: 600px;
-    height: 800px; }
-  .carousel .control-buttons {
-    text-align: center; }
-  .carousel .transition-timer-carousel-progress-bar {
-    height: 3px;
-    background-color: #5cb85c;
-    /*progress bar color*/
-    width: 0;
-    margin: 0 0 0 0;
-    border: none;
-    z-index: 11;
-    position: relative; }
-  .carousel .carousel-control {
-    z-index: 11; }
-
 @media screen and (max-width: 1270px) {
   .wrapper {
     left: 19%; } }
@@ -235,27 +197,6 @@ footer {
     display: inline-block;
     top: -20px; }
 
-.imagen-final {
-  text-align: center;
-  animation: entrada 11.3s; }
-  .imagen-final img {
-    position: relative;
-    width: 450px;
-    margin-top: -380px;
-    animation: image 11s; }
-@keyframes image {
-  0%,85% {
-    transform: scale(0, 0); }
-  95% {
-    -webkit-transform: scale(1.2, 0.01);
-    transform: scale(1.2, 0.01); } }
-@keyframes entrada {
-  0%,85% {
-    opacity: 0;
-    transform: translateX(-900px); }
-  90% {
-    opacity: 1;
-    transform: translateX(0); } }
 body {
   padding-top: 15px; }
 
