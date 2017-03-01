@@ -1,7 +1,28 @@
-header .image-header {
-  margin-top: 40px; }
-  header .image-header img {
-    width: 400px; }
+header .imagenes-header {
+  height: 460px;
+  margin-top: 100px;
+  overflow: hidden; }
+  header .imagenes-header .titulo-header {
+    margin-top: 150px;
+    position: absolute;
+    right: 30%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 58px; }
+  header .imagenes-header .image-header {
+    width: 500px; }
+    header .imagenes-header .image-header img {
+      position: absolute;
+      right: 60%;
+      width: 400px; }
+  header .imagenes-header .image2-header img {
+    position: absolute;
+    left: 72%;
+    width: 200px; }
+  header .imagenes-header .image3-header img {
+    position: absolute;
+    width: 160px;
+    top: 100%;
+    left: 70%; }
 header nav {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
   background: white; }
