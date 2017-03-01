@@ -289,6 +289,8 @@ background: #04486F;
   border-bottom-left-radius: 40px;
 }
 
+
+
 @-webkit-keyframes squeeze {
   90% {
     -webkit-transform: none;
@@ -370,4 +372,3 @@ background: #04486F;
     }
         
 }
-

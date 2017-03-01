@@ -1,0 +1,21 @@
+.comunicados{
+    display: inline-block;
+    margin-top: 20px;
+     text-align: center;
+p{
+            color: $noti;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            margin-left: 8px;
+            /* text-align: center; */
+        }
+        .line{
+            background-color: $noti;
+
+            position: relative;
+            padding: 1.5px 0;
+            width: 180px;
+            display: inline-block;
+            top: -20px;
+            
+    }} 

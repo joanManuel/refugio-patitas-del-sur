@@ -1,8 +1,16 @@
 header{
-    
+    .image-header{
+        margin-top: 40px;
+        
+        img{
+            width: 400px;
+            
+        }
+    }
     nav{
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
     background: white;
+        
     ul{
         
         text-align: right;
