@@ -1,25 +1,36 @@
 header{
+  
      .imagenes-header{
          height: 460px;
-        margin-top: 100px;
+        margin-top: 80px;
          
          overflow: hidden; 
+         
         .titulo-header{
            margin-top: 150px;
             position: absolute;
-            right: 30%;
+            right: 33%;
+            color: #041A27;
             font-family: 'Oswald', sans-serif;
             font-size: 58px;
-
+            animation: aum 1s infinite;
+            @keyframes aum {
+        50%{
+        transform: scale(1.1);
+                }
+            }
         }
+         
    
         .image-header{
           
             width: 500px;
             img{
+                bottom: 0;
                position: absolute;
                 right: 60%;
-                width: 400px;
+                width: 38%;  
+                max-width: 400px;
 
                 }
             }
@@ -104,4 +115,6 @@ header{
         transform: scale(1.1);
     }
     
+    
 }
+
