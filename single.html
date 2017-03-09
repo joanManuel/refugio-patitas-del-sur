@@ -20,36 +20,48 @@
     </div>
 	<div class="container">
         <div class="row">
-            <div class="col-xs-12">  
-                <nav class="navbar-fixed-top">
-                   <div class="wrapper">
-                        <div class="container">
-                           <div class="contain-animation">
-                           <!-- animacion huellas -->
-                                <div class="contain-dog">
-                                  <img class="prints" src="img/effect-dog.png" alt="Bear Prints"  />
-                                  <span class="cover"></span>
+                    <div class="col-xs-12">                       
+                        <nav class="navbar-fixed-top"> 
+                          <!-- animacion huellas -->       
+                           <div class="wrapper">
+                                <div class="container">
+                                   <div class="contain-animation">
+                                      <div class="contain-dog">
+                                      <img class="prints" src="img/effect-dog.png"/>
+                                      <span class="cover"></span>
+                                    </div>
+                                  </div>
                                 </div>
-                            </div>
-                        </div>
+                            </div> 
+                            <!-- Logo -->
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                  <a class="navbar-brand" href="#">
+                                    <img alt="Logo" src="img/logoMenu.png">
+                                  </a>
+                                </div>
+                            </div> 
+                            <!-- Menu mobil -->
+                            <figure id="showMenu" class="ioMenuMovil" onclick="displayMenu()">
+                                <img src="img/Menu_mobile-first.png" alt="">
+                            </figure>             
+                            <!-- Menu opciones-->
+                            <div id="card_menu">  
+                                <!-- Menu Mobil --> 
+                                <figure id="hideMenu" class="ioMenuMovil" onclick="displayMenu()">
+                                   <img src="img/SALIR.png" alt="">
+                                </figure>    
+                                   
+                                <ul>                         
+                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="#">Adopta!</a></li>
+                                    <li><a href="#">¿Quiénes Somos?</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                </ul>
+                            </div>                            
+                        </nav>
                     </div>
- 
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                          <a class="navbar-brand" href="#">
-                            <img alt="Logo" src="img/logoMenu.png">
-                          </a>
-                        </div>
-                    </div>    
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Adopta!</a></li>
-                        <li><a href="#">¿Quiénes Somos?</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>            	
-        </div>
+            </div>
     </div>
 	</header>
 	
@@ -57,7 +69,7 @@
    <!-- Anuncio -->
   
     <div class="row">
-        <div class="container">
+        <div class="container anuncio1">
             <div class="col-md-12 ads">
                 <img class="anun" src="img/anuncio.png" alt="">
             </div>
@@ -121,8 +133,9 @@
     </div>
     </div>  
     
+    <!-- Anuncio -->
     <div class="row">
-        <div class="container">
+        <div class="container anuncio1">
             <div class="col-md-12 ads">
                 <img class="anun" src="img/anuncio.png" alt="">
             </div>
@@ -132,11 +145,14 @@
     
     <!-- Footer -->
     <footer>
-        <div class="copyright">
-			<p>Todos los derechos reservados © 2017</p>
-		</div>
-        <div class="design">
-            <p>Diseñado por <a href="#">Joan Torres</a></p>
+       <div class="row designfooter">
+           
+            <div class="copyright col-sm-6 col-xs-12">
+                <p>Todos los derechos reservados © 2017</p>
+            </div>
+            <div class="design col-sm-6 col-xs-12" >
+                <p>Diseñado por <a href="#">Joan Torres</a></p>
+            </div>
         </div>
     </footer>
     
