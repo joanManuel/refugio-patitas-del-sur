@@ -1,10 +1,10 @@
 .noticias{
+    margin-top: 30px;
     .titulo-seccion{
-    margin-top: 20px;
     
         p{
             color: $noti;
-            font-size: 20px;
+            font-size: 28px;
             font-family: 'Oswald', sans-serif;
             margin-left: 8px;
         }
@@ -33,20 +33,29 @@
                 }
         }
         .info{
-            padding: 1.25em;
+            
+            padding: 1.25em; 
             .titulo{
+                margin-top: 0;
                 a{
+                     text-decoration:none;
+                    font-size: 22px;
                     color: black;
                 }
             }
             .fecha{
+                margin-top: 16px;
                 color: $noti;  
                 font-family: "Oswald";
                 font-size: 16px;
             }
             .extracto{
-                
-            }
+                //margin-top: 16px;
+               margin-bottom: 1.25em;
+                max-height: 8.125em; //130px
+						line-height: 1.75em;
+                font-size: 1em;
+                }
             }
          }
         }

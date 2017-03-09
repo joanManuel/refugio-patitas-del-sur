@@ -1,0 +1,53 @@
+.imagenes-header{
+         height: 460px;
+        margin-top: 20px;
+         
+         overflow: hidden; 
+         
+        .titulo-header{
+           margin-top: 150px;
+            position: absolute;
+            right: 33%;
+            color: #041A27;
+            font-family: 'Oswald', sans-serif;
+            font-size: 3.8em;
+            animation: aum 1s infinite;
+            @keyframes aum {
+        50%{
+        transform: scale(1.1);
+                }
+            }
+        }
+         
+   
+        .image-header{
+          
+            width: 500px;
+            img{
+                bottom: 0;
+               position: absolute;
+                right: 60%;
+                width: 38%;  
+                max-width: 400px;
+
+                }
+            }
+         .image2-header{
+                img{
+                    position: absolute;
+                    left: 72%;
+                    width: 200px;
+                }
+        }
+         .image3-header{
+           
+             img{
+                 position: absolute;
+                 width: 160px;
+                 top: 100%;
+                 left: 70%;
+             }
+             
+         }
+    }
+

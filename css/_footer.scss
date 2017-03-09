@@ -1,13 +1,15 @@
 footer{
     margin-top: 40px;
-    background-color: $textMenuFooter;
-    height: 80px;
+ 
+    .designfooter{
+         background-color: $textMenuFooter;
     .copyright{
         position: relative;
         float: left;
-        margin: -10px 0 0 50px;
+        margin:10px 0;
         top: 50%;
-        
+        text-align: center;
+        line-height: 30px;
         p{
             color: white;
             font-family: "Oswald", arial;
@@ -17,13 +19,15 @@ footer{
     .design{
         float: right;
         position: relative;
-        margin: -10px 50px 0 0;
+        margin:10px 0;
         top: 50%;
-        
+        text-align: center;
+        line-height: 30px;
         p{
             color: white;
             font-family: "Oswald", arial;
             font-size: 18px;
         }
     }
+  }  
 }

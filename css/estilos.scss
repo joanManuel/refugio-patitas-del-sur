@@ -2,19 +2,23 @@ $hoverMenu : #1A9CDC;
 $textMenuFooter : #041A27;
 $noti : #04486F;
 
-@import "header";
-@import "ads";
-@import "noticias";
-@import "sidebar";
-@import "footer";
-@import "mediaqueries";
-@import "comunicados";
-
 body{
     padding-top: 15px;
     background-image: url(../img/background.png);
+    overflow:hidden;
+    overflow-y: scroll;
 }
 .row{
     margin-left: 0;
     margin-right: 0;
 }
+
+
+@import "header";
+@import "bienvenida";
+@import "ads";
+@import "noticias";
+@import "sidebar";
+@import "footer";
+@import "comunicados";
+@import "mediaqueries";

@@ -1,3 +1,4 @@
+//efectos del header
 $(document).mousemove(function(e){
 
 	var posX = e.clientX/100;
@@ -9,3 +10,13 @@ $(document).mousemove(function(e){
 	
 
 });
+
+//efecto parallax
+$(window).scroll(function(){
+
+	var posYY = window.pageYOffset;
+
+	$("#parallax1").css({"left": 1500 - posYY/2 + "px"})
+	
+
+})

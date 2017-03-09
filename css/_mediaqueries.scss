@@ -7,3 +7,154 @@
     .wrapper{
         display: none}
 }
+@media screen and (max-width: 992px){
+    header{
+        .container{
+            .row{
+                .imagenes-header{
+                    .titulo-header{
+                      right: 28%;  
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 910px){
+    
+    .parallax1{
+        display: none;
+    }
+    body{
+        
+    }
+    .navbar-fixed-top{
+        background: $noti;
+        height: 50px;
+        #card_menu{
+            
+            display: none;
+            position: absolute;
+            background-image: url(../img/background-mobil.png);
+            
+            width: 40%;
+            /* top: 0px; */
+            left: 0px;
+            z-index: 999;
+            padding-bottom: 30px;
+            .ioMenuMovil{
+                top: 0;
+                img{
+                    width: 100%;
+                }   
+            }
+            #hideMenu{
+                left: 20px;
+            }
+           
+            ul{
+                
+                position: relative;
+                left: 0;
+                text-align: left;
+                margin-top: 60px;
+                li{
+                    font-size: 1.5em;
+                    width: 100%;
+                    a{
+                        width: 100%;
+                       /* display: none; */
+                      
+                    }
+                   
+                }
+            }
+        }
+        .container-fluid{
+            .navbar-header{
+                .navbar-brand{
+                    display: none;
+                }
+            
+            }
+        }
+        .ioMenuMovil{
+            display: block;
+            position: absolute;
+            left: 60px;
+            padding: 2px;
+            cursor: pointer;
+            line-height: 45px;
+            img{
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    body{
+        .anuncio1{
+          display: none;
+        }
+         footer{
+    
+    .designfooter{
+    .copyright{
+        
+        margin:10px 0 0 0;
+       
+        p{
+            
+        }
+    }
+    .design{
+        margin:0 0 10px 0;
+       
+        p{
+           
+        }
+    }
+  }  
+}
+    }
+}
+@media screen and (max-width: 680px){
+  
+                    .titulo-header{
+                       
+                      top: -25%;  
+                        left: 10%;
+                    }
+                
+    
+    
+    .navbar-fixed-top{
+        
+        #card_menu{
+            width: 50%;
+        }
+    }
+}
+@media screen and (max-width: 540px){
+    .navbar-fixed-top{
+        
+        #card_menu{
+            width: 60%;
+        }
+    }
+}
+
+@media screen and (max-width: 370px){
+    body{
+        .ads-aside{
+            display: none;
+            img{
+                display: none;
+            }
+        }
+   
+    }
+}

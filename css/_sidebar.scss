@@ -1,4 +1,5 @@
 .sidebar{
+    margin-top: 20px;
     .widget{
         margin-bottom: 5px;
         .titulo-seccion{
@@ -24,8 +25,8 @@
 	            padding: 12px 0;
 	            border-radius: 5px;
 	            font-size: 30px;
-	            margin: 0 20px;
-                width: 90px;
+	            margin: 5px 15px;
+                width: 50%;
                 border: solid 1px white;
                 
                 &:hover{
@@ -64,4 +65,10 @@
         justify-content: center;
         margin-top: 20px;
     }
+}
+.parallaximg{
+    width: 200px;
+    position: absolute;
+    left: 1500px;
+    top: 600px;
 }
